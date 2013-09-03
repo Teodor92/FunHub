@@ -30,6 +30,27 @@ namespace FunHub.Api.Controllers
             return response;
         }
 
+        public IQueryable<JokeModel> GetAll(string search)
+        {
+            var response = this.PerformOperationAndHandleExceptions(() =>
+            {
+                var queryResult = this.context.Jokes.Where(x => x.Content.Contains(search) && x.PostedBy.Contains(search));
+
+                var models =
+                    (from joke in queryResult
+                     select new JokeModel()
+                     {
+                         PostedBy = joke.PostedBy,
+                         PostDate = joke.PostDate,
+                         Content = joke.Content
+                     }).OrderByDescending(x => x.PostDate);
+
+                return models;
+            });
+
+            return response;
+        }
+
         public IQueryable<JokeModel> GetSpesific(int offset, int count)
         {
             var response = this.PerformOperationAndHandleExceptions(() =>
