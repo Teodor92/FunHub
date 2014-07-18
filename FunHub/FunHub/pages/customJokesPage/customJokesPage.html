@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Custom Jokes</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="customJokesPage.css" rel="stylesheet" />
+    <script src="customJokesPageCodeBehind.js"></script>
+    <script src="customJokesPage.js"></script>
+</head>
+<body>
+    <div class="customJokesPage fragment">
+        <div id="custom-joke-template" data-win-control="WinJS.Binding.Template">
+            <div class="custom-joke-container">
+                <h3 data-win-bind="innerText: postedBy"></h3>
+                <span data-win-bind="innerText: content"></span>
+            </div>
+        </div>
+
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Custom Jokes</span>
+            </h1>
+        </header>
+
+        <section id="customJokeSection" aria-label="Main content" role="main">
+            <div id="customJokeList" data-win-control="WinJS.UI.ListView"
+                 data-win-options="{
+                        itemDataSource: ViewModels.customJokesList.dataSource,
+                        itemTemplate: select('#custom-joke-template'),
+                        layout : {type: WinJS.UI.GridLayout}
+                }">
+            </div>
+            <!--<button id="save-all">Save all jokes</button>-->
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Scale=80
+Scale=100

@@ -1,0 +1,69 @@
+﻿.customJokesPage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+.pagecontrol {
+    /*margin: 0 auto;*/
+    width: 1000px;
+}
+
+#custom-joke-template > div {
+    margin-left: 300px;
+}
+
+.custom-joke-container {
+    padding: 10px;
+    width: 800px;
+    height: 40px;
+    display: block;
+}
+
+#save-all {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+.customJokesPage section {
+    margin-left: 200px;
+}
+
+.custom-joke-template span {
+    font-size: 28px;
+}
+
+.customJokesPage section > div {
+    width: 100%;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .customJokesPage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #customJokeList {
+        width: 245px;
+    }
+
+        #customJokeList .win-listview .win-surface {
+            width: 245px;
+        }
+
+        #customJokeList .win-item {
+            width: 235px;
+        }
+
+    #save-all {
+        width: 245px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .customJokesPage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

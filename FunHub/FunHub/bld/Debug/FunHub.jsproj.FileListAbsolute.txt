@@ -1,0 +1,15 @@
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bin\Debug\resources.pri
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bin\Debug\AppxManifest.xml
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bin\Debug\FunHub.build.appxrecipe
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\priconfig.xml
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\priconfig.xml.intermediate
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\layout.resfiles
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\layout.resfiles.intermediate
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\resources.resfiles
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\resources.resfiles.intermediate
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\pri.resfiles
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\pri.resfiles.intermediate
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\qualifiers.txt
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,105 @@
+﻿.chuckNorisPage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.pagecontrol {
+    /*margin: 0 auto;*/
+    width: 90%;
+}
+
+.singlePost {
+    background: transparent;
+}
+
+
+/*#chuckJokeContainer {
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 600px;
+    text-align: center;
+}
+
+.singlePost {
+    display: block;
+    width: 100%;
+}*/
+
+#chuckJokeContainer {
+    width: 800px;
+    margin-top: 200px;  
+    margin-left: 180px;
+    font-size: 40px;
+    text-align: center;
+    -ms-overflow-style: none;
+}
+
+#loadNewChuckJoke {
+    display: block;
+    padding: 20px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 350px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+#snapview {
+    display: none;
+}
+
+
+@media screen and (-ms-view-state: snapped) {
+    .chuckNorisPage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #chuckJokeContainer {
+        /*width: 250px;
+        margin-top: 200px;
+        margin-left: 20px;
+        font-size: 24px;
+        text-align: center;
+        -ms-overflow-style: none;*/
+        display: none;
+    }
+
+    #loadNewChuckJoke {
+        /*width: 265px;
+        height: 374px;
+        display: block;
+        margin-top: 100px;
+        margin-left: 20px;
+        border: 1px solid black;
+        content: "";
+        background: url("../../images/chuck_norris_snapviewpicture.png") no-repeat;*/
+        display: none;
+    }
+
+    section > button {
+        display: none;
+    }
+
+    #snapview {
+        width: 265px;
+        height: 374px;
+        display: block;
+        margin-top: 100px;
+        margin-left: 20px;
+        border: 1px solid black;
+        background: url("../../images/chuck_norris_snapviewpicture.png") no-repeat;
+    }
+
+    /*.singlePost {
+        background: transparent;
+        width: 230px;
+    }*/
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .chuckNorisPage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

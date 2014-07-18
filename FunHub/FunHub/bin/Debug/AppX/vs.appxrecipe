@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TEODOR-PC</Machine>
+    <WindowsUser>Teodor92</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>29522EpicMerge.FunHub</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>751CFBC392157BAA847CB71F543E3801BF4D07949F57D11A673D2C4DC68388E5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>29522EpicMerge.FunHub_1.0.0.3_neutral__bgj8cz4h6kghw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>29522EpicMerge.FunHub_bgj8cz4h6kghw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>29522EpicMerge.FunHub</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=9DE97EE2-1F96-430C-AE9D-2F31318BC726</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.3</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-18T10:13:27.757</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-07-18T10:10:37.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\addJokePage\addJokePage.css">
+      <PackagePath>pages\addJokePage\addJokePage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\chuckNorisPage\chuckNorisPage.css">
+      <PackagePath>pages\chuckNorisPage\chuckNorisPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:35.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\customJokesPage\customJokesPage.css">
+      <PackagePath>pages\customJokesPage\customJokesPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2014-07-18T10:10:35.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\common\common.css">
+      <PackagePath>pages\tumblurPages\common\common.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\detailedTumblurPage\detailedTumblurPage.css">
+      <PackagePath>pages\tumblurPages\detailedTumblurPage\detailedTumblurPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPage.css">
+      <PackagePath>pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPage.css">
+      <PackagePath>pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPage.css">
+      <PackagePath>pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\tumblurPage\tumblurPage.css">
+      <PackagePath>pages\tumblurPages\tumblurPage\tumblurPage.css</PackagePath>
+      <Modified>2014-07-18T10:10:36.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\chuck_norris_snapviewpicture.png">
+      <PackagePath>images\chuck_norris_snapviewpicture.png</PackagePath>
+      <Modified>2014-07-18T10:10:37.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\left-arrow.png">
+      <PackagePath>images\left-arrow.png</PackagePath>
+      <Modified>2014-07-18T10:10:37.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\logo..png">
+      <PackagePath>images\logo..png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-18T10:10:37.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <Modified>2014-07-18T10:10:37.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2014-07-18T10:10:37.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <Modified>2014-07-18T10:10:37.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\right-arrow.png">
+      <PackagePath>images\right-arrow.png</PackagePath>
+      <Modified>2014-07-18T10:10:37.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-18T10:10:37.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-18T10:10:37.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-18T10:10:40.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\images\gradient1.jpg">
+      <PackagePath>images\gradient1.jpg</PackagePath>
+      <Modified>2014-07-18T10:10:40.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\app\models.js">
+      <PackagePath>js\app\models.js</PackagePath>
+      <Modified>2014-07-18T10:10:37.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\app\viewModels.js">
+      <PackagePath>js\app\viewModels.js</PackagePath>
+      <Modified>2014-07-18T10:10:40.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-07-18T10:10:37.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\defaultCodeBehind.js">
+      <PackagePath>js\defaultCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:37.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\httpRequester.js">
+      <PackagePath>js\httpRequester.js</PackagePath>
+      <Modified>2014-07-18T10:10:37.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\persisters\chuckNorisPersister.js">
+      <PackagePath>js\persisters\chuckNorisPersister.js</PackagePath>
+      <Modified>2014-07-18T10:10:40.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\persisters\customJokePersister.js">
+      <PackagePath>js\persisters\customJokePersister.js</PackagePath>
+      <Modified>2014-07-18T10:10:37.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\js\persisters\tumblurPersister.js">
+      <PackagePath>js\persisters\tumblurPersister.js</PackagePath>
+      <Modified>2014-07-18T10:10:37.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\addJokePage\addJokePage.js">
+      <PackagePath>pages\addJokePage\addJokePage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\addJokePage\AddJokePageCodeBehind.js">
+      <PackagePath>pages\addJokePage\AddJokePageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\chuckNorisPage\chuckNorisPage.js">
+      <PackagePath>pages\chuckNorisPage\chuckNorisPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:35.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\chuckNorisPage\chuckNorisPageCodeBehind.js">
+      <PackagePath>pages\chuckNorisPage\chuckNorisPageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:35.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\customJokesPage\customJokesPage.js">
+      <PackagePath>pages\customJokesPage\customJokesPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\customJokesPage\customJokesPageCodeBehind.js">
+      <PackagePath>pages\customJokesPage\customJokesPageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2014-07-18T10:10:35.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\detailedTumblurPage\detailedTumblurPage.js">
+      <PackagePath>pages\tumblurPages\detailedTumblurPage\detailedTumblurPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPage.js">
+      <PackagePath>pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPageCodeBehind.js">
+      <PackagePath>pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPage.js">
+      <PackagePath>pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPageCodeBehind.js">
+      <PackagePath>pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPage.js">
+      <PackagePath>pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPageCodeBehind.js">
+      <PackagePath>pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\tumblurPage\tumblurPage.js">
+      <PackagePath>pages\tumblurPages\tumblurPage\tumblurPage.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\tumblurPage\tumblurPageCodeBehind.js">
+      <PackagePath>pages\tumblurPages\tumblurPage\tumblurPageCodeBehind.js</PackagePath>
+      <Modified>2014-07-18T10:10:36.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\addJokePage\addJokePage.html">
+      <PackagePath>pages\addJokePage\addJokePage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\chuckNorisPage\chuckNorisPage.html">
+      <PackagePath>pages\chuckNorisPage\chuckNorisPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:35.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\customJokesPage\customJokesPage.html">
+      <PackagePath>pages\customJokesPage\customJokesPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2014-07-18T10:10:35.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-07-18T10:10:40.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\settings\privacyPolicy.html">
+      <PackagePath>pages\settings\privacyPolicy.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\detailedTumblurPage\detailedTumblurPage.html">
+      <PackagePath>pages\tumblurPages\detailedTumblurPage\detailedTumblurPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPage.html">
+      <PackagePath>pages\tumblurPages\devOpsTumblurPage\devOpsTumblurPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPage.html">
+      <PackagePath>pages\tumblurPages\joysOfCodeTumblrPage\joysOfCodeTumblrPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPage.html">
+      <PackagePath>pages\tumblurPages\liveAtTheAcademyTumblrPage\liveAtTheAcademyTumblrPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\pages\tumblurPages\tumblurPage\tumblurPage.html">
+      <PackagePath>pages\tumblurPages\tumblurPage\tumblurPage.html</PackagePath>
+      <Modified>2014-07-18T10:10:36.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodor92\Desktop\T\trunk\FunHub\FunHub\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-07-18T10:13:27.624</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>tumblurPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="tumblurPage.css" rel="stylesheet" />
+    <link href="../common/common.css" rel="stylesheet" />
+    <script src="tumblurPageCodeBehind.js"></script>
+    <script src="tumblurPage.js"></script>
+</head>
+<body>
+    <div id="joke-template" data-win-control="WinJS.Binding.Template">
+        <div id="single-joke">
+            <h4 class="joke-title" data-win-bind="innerText: title"></h4>
+            <img src="#" data-win-bind="src: imageUrl" />
+        </div>
+    </div>
+
+    <div class="tumblurPage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Tumblur jokes</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <button id="load-back"></button>
+            <div id="tumblur-jokes" data-win-control="WinJS.UI.ListView"
+                data-win-options="{
+    itemDataSource: ViewModels.tumblurJokes.dataSource,
+    itemTemplate: select('#joke-template'),
+    oniteminvoked: TumblurPageBehind.goToTumblurJokeDetailsPage
+}">
+            </div>
+            <button id="load-more"></button>
+        </section>
+    </div>
+
+
+</body>
+</html>
